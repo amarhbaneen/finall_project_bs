@@ -183,7 +183,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
     );
 
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.white38,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -282,9 +282,6 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
         .set(userModel.toMap());
     Fluttertoast.showToast(msg: "Account created successfully :) ");
 
-    Navigator.pushAndRemoveUntil(
-        (context),
-        MaterialPageRoute(builder: (context) => admindashboard()),
-            (route) => false);
+
   }
 }

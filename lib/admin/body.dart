@@ -21,7 +21,7 @@ class _admindashboardState extends State<admindashboard> {
   TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static  List<Widget> _widgetOptions = <Widget>[
    homeScreen(),
-    managerTools(),
+    employeeList(),
     RegistrationScreen (),
 
 
